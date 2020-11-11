@@ -29,6 +29,7 @@ function gf_post_to_third_party($entry, $form) {
 
 		// Create an array with the form data to be posted
 		$jsonData = [
+			'apiKey' 	=> xxxxxx,
 			'id'		=> $id,
 			'field1'	=> $form_field1,
 			'field2'	=> $form_field2,
